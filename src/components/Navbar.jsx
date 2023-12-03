@@ -25,10 +25,10 @@ function Navbar() {
 				} transition ease-in duration-300`}>
 				<div className="grid grid-cols-1 md:grid-cols-2 px-4 gap-x-[15.73rem] gap-y-[5.75rem] ">
 					<div className="py-[15.88] flex place-items-start">
-						<p className="-rotate-90 w-fit h-fit font-medium text-xl md:text-2xl uppercase mt-8">
+						<p className="-rotate-90 w-fit h-fit font-medium text-xl md:text-2xl uppercase mt-2">
 							menu
 						</p>
-						<ul className="flex flex-col justify-between">
+						<ul className="flex flex-col gap-6">
 							<li className="font-spartan text-5xl md:text-[4rem] font-bold uppercase">
 								<Link to={"/"}>home</Link>
 							</li>
@@ -45,18 +45,18 @@ function Navbar() {
 					</div>
 					<div className="md:self-end font-semibold font-spartan text-2xl">
 						<p>email@gmail.com</p>
-						<ul className="flex gap-4 mt-4">
-							<li className="text-2xl">
+						<ul className="flex gap-6 mt-4">
+							<li className="text-3xl">
 								<a href="https://twitter.com/adekunle1855">
 									<FaXTwitter />
 								</a>
 							</li>
-							<li className="text-2xl">
+							<li className="text-3xl">
 								<a href=" https://github.com/kareem24">
 									<TbBrandGithub />
 								</a>
 							</li>
-							<li className="text-2xl">
+							<li className="text-3xl">
 								<a href="https://linkedin.com/in/kareem-horlah">
 									<CiLinkedin />
 								</a>
