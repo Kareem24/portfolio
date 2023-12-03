@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gothic {
+  font-family: "League Gothic", "sans serif";
+}
+.spartan {
+  font-family: "League Spartan", "sans serif";
+}
+.skill-list {
+  @apply flex flex-row-reverse items-center gap-2;
+}
+.inputs {
+  @apply flex flex-col gap-[1.68rem];
+}
+.inputs label {
+  @apply font-spartan font-bold text-base capitalize;
+}
+.inputs input {
+  @apply w-full border-b-[1px] border-black text-gray2 capitalize;
+}
