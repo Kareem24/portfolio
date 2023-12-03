@@ -2,6 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+	overflow-x: hidden;
+}
+
 .gothic {
 	font-family: "League Gothic", "sans serif";
 }
