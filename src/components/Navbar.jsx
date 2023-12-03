@@ -10,7 +10,7 @@ import { useState } from "react";
 function Navbar() {
 	const [showNav, setShowNav] = useState(false);
 	return (
-		<nav className="flex items-center bg-black w-full px-6  md:px-20 lg:px-[7.5rem] pt-[3.75rem] justify-between overflow-hidden ">
+		<nav className="flex items-center bg-black w-full px-4  md:px-20 lg:px-[7.5rem] pt-[3.75rem] justify-between overflow-hidden ">
 			<Link to={"/"}>
 				<img src={logo} alt=" logo image" />
 			</Link>
