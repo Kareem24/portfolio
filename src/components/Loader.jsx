@@ -6,6 +6,7 @@ function Loader() {
 				<span className="bar"></span>
 				<span className="bar"></span>
 			</div>
+			{/* <h1 className="font-bold text-white text-6xl uppercase">loading ...</h1> */}
 		</div>
 	);
 }

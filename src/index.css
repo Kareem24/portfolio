@@ -6,6 +6,9 @@ html {
 	overflow-x: hidden;
 }
 
+nav .active {
+	color: #7e7e7e;
+}
 .gothic {
 	font-family: "League Gothic", "sans serif";
 }
