@@ -2,21 +2,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+	overflow-x: hidden;
+}
+
+nav .active {
+	color: #7e7e7e;
+}
 .gothic {
-  font-family: "League Gothic", "sans serif";
+	font-family: "League Gothic", "sans serif";
 }
 .spartan {
-  font-family: "League Spartan", "sans serif";
+	font-family: "League Spartan", "sans serif";
 }
 .skill-list {
-  @apply flex flex-row-reverse items-center gap-2;
+	@apply flex flex-row-reverse items-center gap-2;
 }
 .inputs {
-  @apply flex flex-col gap-[1.68rem];
+	@apply flex flex-col gap-[1.68rem];
 }
 .inputs label {
-  @apply font-spartan font-bold text-base capitalize;
+	@apply font-spartan font-bold text-base capitalize;
 }
 .inputs input {
-  @apply w-full border-b-[1px] border-black text-gray2 capitalize;
+	@apply w-full border-b-[1px] border-black text-gray2 capitalize;
+}
+/* loader css */
+.loader {
+	display: flex;
+	align-items: center;
+}
+
+.bar {
+	display: inline-block;
+	width: 3px;
+	height: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	animation: scale-up4 1s linear infinite;
+}
+
+.bar:nth-child(2) {
+	height: 35px;
+	margin: 0 5px;
+	animation-delay: 0.25s;
+}
+
+.bar:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+@keyframes scale-up4 {
+	20% {
+		transform: scaleY(1.5);
+	}
+
+	40% {
+		transform: scaleY(1);
+	}
 }

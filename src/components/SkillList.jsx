@@ -9,7 +9,7 @@ function SkillList({ icon, skill }) {
 }
 
 SkillList.propTypes = {
-	icon: PropTypes.string,
+	icon: PropTypes.any,
 	skill: PropTypes.string,
 };
 export default SkillList;
