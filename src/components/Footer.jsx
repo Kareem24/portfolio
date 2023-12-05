@@ -25,7 +25,7 @@ function Footer() {
 					</p>
 				</Animate>
 				<Animate>
-					<img src={logo} alt=" logo image" className="-order-1" />
+					<img src={logo} alt=" logo image" className="-order-1" width={40} height={40} />
 				</Animate>
 			</div>
 		</footer>

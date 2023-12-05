@@ -33,7 +33,7 @@ function Navbar() {
 			animate={hideNav ? "hidden" : "visible"}
 			className="flex items-center bg-black w-full px-4  z-[12]  md:px-20 lg:px-[7.5rem] py-6 md:py-8 justify-between fixed top-0 left-0 mb-0 ">
 			<Link to={"/"}>
-				<img src={logo} alt=" logo image" className="md:w-16 w-10" />
+				<img src={logo} alt=" logo image" className="md:w-16 w-10" width={40} height={40}/>
 			</Link>
 			<button
 				aria-label="hamburger menu button"
