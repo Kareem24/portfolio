@@ -1,3 +1,4 @@
+import { ScrollRestoration } from "react-router-dom";
 import Animate from "../components/Animate";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
@@ -8,6 +9,7 @@ function About() {
 	return (
 		<>
 			<Navbar />
+			<ScrollRestoration />
 			<TopSection heading={"about me"} subHeading={"it's me kareem"} />
 			<section className="bg-white pt-[3.75rem] px-[2.56rem]  md:px-20 lg:px-[7.5rem] pb-[6rem]">
 				<article className="text-black max-w-xl m-auto mb-[6.69rem] ">
