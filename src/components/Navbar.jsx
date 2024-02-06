@@ -33,7 +33,13 @@ function Navbar() {
 			animate={hideNav ? "hidden" : "visible"}
 			className="flex items-center bg-black w-full px-4  z-[12]  md:px-20 lg:px-[7.5rem] py-6 md:py-8 justify-between fixed top-0 left-0 mb-0 ">
 			<Link to={"/"}>
-				<img src={logo} alt=" logo image" className="md:w-16 w-10" width={40} height={40}/>
+				<img
+					src={logo}
+					alt=" logo image"
+					className="md:w-16 w-10"
+					width={40}
+					height={40}
+				/>
 			</Link>
 			<button
 				aria-label="hamburger menu button"
@@ -47,26 +53,26 @@ function Navbar() {
 				} transition ease-in duration-300 z-10`}>
 				<div className="grid grid-cols-1 md:grid-cols-2 px-4 gap-x-[15.73rem] gap-y-[5.75rem] ">
 					<div className="py-[15.88] flex place-items-start">
-						<p className="-rotate-90 w-fit h-fit font-medium text-xl md:text-2xl uppercase mt-2">
+						<p className="-rotate-90 w-fit h-fit font-medium text-lg sm:text-xl md:text-2xl uppercase mt-2">
 							menu
 						</p>
 						<ul className="flex flex-col gap-6">
-							<li className="font-spartan text-5xl md:text-[4rem] font-bold uppercase">
+							<li className="font-spartan text-3xl sm:text-5xl md:text-[4rem] font-bold uppercase">
 								<NavLink to={"/"}>home</NavLink>
 							</li>
-							<li className="font-spartan text-5xl md:text-[4rem] font-bold uppercase">
+							<li className="font-spartan text-3xl sm:text-5xl md:text-[4rem] font-bold uppercase">
 								<NavLink to={"/projects"}>projects</NavLink>
 							</li>
-							<li className="font-spartan text-5xl md:text-[4rem] font-bold uppercase">
+							<li className="font-spartan text-3xl sm:text-5xl md:text-[4rem] font-bold uppercase">
 								<NavLink to={"/about"}>about</NavLink>
 							</li>
-							<li className="font-spartan text-5xl md:text-[4rem] font-bold uppercase">
+							<li className="font-spartan text-3xl sm:text-5xl md:text-[4rem] font-bold uppercase">
 								<NavLink to={"/contact"}>contacts</NavLink>
 							</li>
 						</ul>
 					</div>
 					<div className="md:self-end font-semibold font-spartan text-2xl">
-						<p>email@gmail.com</p>
+						<p>kareemolakunleh@gmail.com</p>
 						<ul className="flex gap-6 mt-4">
 							<li className="text-3xl">
 								<a
