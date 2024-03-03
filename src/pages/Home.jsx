@@ -23,7 +23,10 @@ function Home() {
 			<Navbar />
 			<ScrollRestoration />
 
-			<TopSection heading={"your name"} subHeading={"front end developer"} />
+			<TopSection
+				heading={"Kareem Roqib O."}
+				subHeading={"front end developer"}
+			/>
 
 			<section className="bg-white pt-[3.75rem] px-[2.56rem]  md:px-20 lg:px-[7.5rem] pb-[6rem] ">
 				<article className="text-black max-w-xl m-auto mb-[6.69rem] ">

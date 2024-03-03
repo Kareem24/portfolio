@@ -7,7 +7,13 @@ function ProjectLayout({ project }) {
 		project;
 	return (
 		<div className=" rounded-lg overflow-hidden border border-black">
-			<img src={image} alt={`${title} image representation`} />
+			<div className="w-full md:max-h-[242px]">
+				<img
+					src={image}
+					alt={`${title} image representation`}
+					className="w-full h-60"
+				/>
+			</div>
 			<div className="px-4  py-5">
 				<h2 className="text-3xl font-spartan font-bold capitalize">{title}</h2>
 				<p className="font-roboto mt-5 mb-10">{description}</p>
