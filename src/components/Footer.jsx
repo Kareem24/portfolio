@@ -21,7 +21,7 @@ function Footer() {
 			<div className="flex gap-12 md:justify-between">
 				<Animate>
 					<p className="font-roboto font-bold md:-order-2">
-						yourmail@gmail.com
+						kareemolakunleh@gmail.com
 					</p>
 				</Animate>
 				<Animate>
@@ -39,4 +39,3 @@ function Footer() {
 }
 
 export default Footer;
-

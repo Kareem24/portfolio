@@ -1,4 +1,3 @@
-import image1 from './assets/forth-project.png'
 import venus from './assets/venus-img.webp'
 import commentsImg from './assets/desktop-design.jpg'
 import rockPaperImg from './assets/desktop-step-1.jpg'
@@ -11,9 +10,7 @@ export const projects = [
     technologies: ['html', 'tailwind Css', 'React'],
     live_url: 'https://venus-agency.netlify.app',
     github_url: 'https://github.com/Kareem24/venus',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-									quasi eos quod veritatis nobis qui molestias consequuntur
-									quos, eligendi officiis?`,
+    description: `A single page application website for venus agency`,
     tag: 'top'
   },
   {
@@ -23,9 +20,7 @@ export const projects = [
     technologies: ['html', 'css', 'javascript'],
     live_url: 'https://deploy-preview-15--interactive-comments-sections-r.netlify.app',
     github_url: 'https://github.com/Kareem24/interactive-comment',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-									quasi eos quod veritatis nobis qui molestias consequuntur
-									quos, eligendi officiis?`,
+    description: `A real time comment section among users`,
     tag: 'top'
 
   },
@@ -36,9 +31,7 @@ export const projects = [
     technologies: ['html', 'Tailwind css', 'React'],
     live_url: 'https://rock-papers-scissors.netlify.app',
     github_url: 'https://github.com/Kareem24/rock-paper',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-									quasi eos quod veritatis nobis qui molestias consequuntur
-									quos, eligendi officiis?`,
+    description: `a rock-paper-scissors game .`,
     tag: 'top'
 
   },
@@ -49,8 +42,6 @@ export const projects = [
     technologies: ['html', 'css', 'javascript'],
     live_url: 'https://deploy-preview-4--awesomes-books.netlify.app/',
     github_url: 'github.com/kareem24/awesome-books',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-									quasi eos quod veritatis nobis qui molestias consequuntur
-									quos, eligendi officiis?`
+    description: `an awesome books library created with es6 class`
   },
 ]

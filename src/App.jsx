@@ -2,7 +2,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
 import { AnimatePresence } from "framer-motion";
-import ScrollToTop from "./components/ScrollToTop";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));

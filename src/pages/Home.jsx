@@ -33,14 +33,14 @@ function Home() {
 					<Animate>
 						<h2 className="text-4xl font-spartan font-bold "> About me</h2>
 						<p className="font-roboto mt-5 mb-[3.75rem] ">
-							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-							nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-							erat, sed diam voluptua. At vero eos et accusam et justo duo
-							dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-							sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-							amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-							invidunt ut labore et dolore magna aliquyam erat, sed diam
-							voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+							my name is kareem , and {"i'm "}a competent frontend developer who
+							specializes in creating pixel-perfect websites and integrating
+							APIs. As a frontend developer , I create engaging and user
+							friendly websites and applications, with my skills I bring ideas
+							to life, ensuring smooth functionality and visually appealing
+							designs. I focus on delivering a seamless user experience, helping
+							bussiness attract and retain customers while staying ahead in
+							{"today's"} digital landscape.
 						</p>
 					</Animate>
 
